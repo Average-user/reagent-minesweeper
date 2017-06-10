@@ -2,6 +2,10 @@
 
 A simple 16 16 with 40 mines, minesweeper made with reagent and clojure.
 
+![](https://github.com/Average-user/reagent-minesweeper/blob/master/resources/public/img/rms.png?raw=true)
+
+# [Demo](https://average-user.github.io/reagent-minesweeper/)
+
 ## How to play:
 
 To reveal a square just click on it, and to put or remove a flag, right-click on it.
