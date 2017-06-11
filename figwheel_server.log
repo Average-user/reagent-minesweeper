@@ -10304,3 +10304,409 @@ Notifying browser that CSS file changed: resources/public/css/style.css
 Notifying browser that CSS file changed: resources/public/css/style.css
 Notifying browser that CSS file changed: resources/public/css/style.css
 Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/mines.cljs   line:115  column:29  ----[0m
+
+  [1mWrong number of args (2) passed to ms.mines/reveal-all-x[0m
+
+  [36m111[0m  [36m  "Gets what it's on the 'pos' coordinate of the model, it paste it[0m
+  [36m112[0m  [36m  on the board."[0m
+  [36m113[0m  [36m  [board model pos op][0m
+  [36m114[0m  [36m  (let [in-pos (get-pos model pos)][0m
+  [33m115[0m  [1m    (cond (= mine-s in-pos) (reveal-all-x board model)[0m
+  [0m   [0m  [33m                            ^--- Wrong number of args (2) passed to ms.mines/reveal-all-x[0m
+  [36m116[0m  [36m          (= "0" in-pos)    (reveal-if-0 board model pos op)[0m
+  [36m117[0m  [36m          :else             (put-in-board board pos in-pos))))[0m
+  [36m118[0m  [36m[0m
+  [36m119[0m  [36m(defn end?[0m
+  [36m120[0m  [36m  "Checks if the player has lost or win. If not, returns false"[0m
+
+[36m----  Compiler Warning : Please see src/ms/mines.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 2.504 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/mines.cljs   line:108  column:30  ----[0m
+
+  [1mUse of undeclared Var ms.mines/reveal-all-x[0m
+
+  [36m104[0m  [36m  "Gets what it's on the 'pos' coordinate of the model, it paste it[0m
+  [36m105[0m  [36m  on the board."[0m
+  [36m106[0m  [36m  [board model pos op][0m
+  [36m107[0m  [36m  (let [in-pos (get-pos model pos)][0m
+  [33m108[0m  [1m    (cond (= mine-s in-pos) (reveal-all-x board model)[0m
+  [0m   [0m  [33m                             ^--- Use of undeclared Var ms.mines/reveal-all-x[0m
+  [36m109[0m  [36m          (= "0" in-pos)    (reveal-if-0 board model pos op)[0m
+  [36m110[0m  [36m          :else             (put-in-board board pos in-pos))))[0m
+  [36m111[0m  [36m[0m
+  [36m112[0m  [36m(defn end?[0m
+  [36m113[0m  [36m  "Checks if the player has lost or win. If not, returns false"[0m
+
+[36m----  Compiler Warning : Please see src/ms/mines.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.458 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.025 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/mines.cljs   line:115  column:29  ----[0m
+
+  [1mWrong number of args (2) passed to ms.mines/reveal-all-x[0m
+
+  [36m111[0m  [36m  "Gets what it's on the 'pos' coordinate of the model, it paste it[0m
+  [36m112[0m  [36m  on the board."[0m
+  [36m113[0m  [36m  [board model pos op][0m
+  [36m114[0m  [36m  (let [in-pos (get-pos model pos)][0m
+  [33m115[0m  [1m    (cond (= mine-s in-pos) (reveal-all-x board model)[0m
+  [0m   [0m  [33m                            ^--- Wrong number of args (2) passed to ms.mines/reveal-all-x[0m
+  [36m116[0m  [36m          (= "0" in-pos)    (reveal-if-0 board model pos op)[0m
+  [36m117[0m  [36m          :else             (put-in-board board pos in-pos))))[0m
+  [36m118[0m  [36m[0m
+  [36m119[0m  [36m(defn end?[0m
+  [36m120[0m  [36m  "Checks if the player has lost or win. If not, returns false"[0m
+
+[36m----  Compiler Warning : Please see src/ms/mines.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.066 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/mines.cljs   line:108  column:30  ----[0m
+
+  [1mUse of undeclared Var ms.mines/reveal-all-x[0m
+
+  [36m104[0m  [36m  "Gets what it's on the 'pos' coordinate of the model, it paste it[0m
+  [36m105[0m  [36m  on the board."[0m
+  [36m106[0m  [36m  [board model pos op][0m
+  [36m107[0m  [36m  (let [in-pos (get-pos model pos)][0m
+  [33m108[0m  [1m    (cond (= mine-s in-pos) (reveal-all-x board model)[0m
+  [0m   [0m  [33m                             ^--- Use of undeclared Var ms.mines/reveal-all-x[0m
+  [36m109[0m  [36m          (= "0" in-pos)    (reveal-if-0 board model pos op)[0m
+  [36m110[0m  [36m          :else             (put-in-board board pos in-pos))))[0m
+  [36m111[0m  [36m[0m
+  [36m112[0m  [36m(defn end?[0m
+  [36m113[0m  [36m  "Checks if the player has lost or win. If not, returns false"[0m
+
+[36m----  Compiler Warning : Please see src/ms/mines.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.097 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.27 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.106 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.105 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.025 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.596 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.08 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.468 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.198 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.559 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.182 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.995 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.042 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/mines.cljs   line:97  column:29  ----[0m
+
+  [1mUse of undeclared Var ms.mines/x[0m
+
+  [36m 93[0m  [36m        (recur (reveal b m (first n) op) (rest n))))))[0m
+  [36m 94[0m  [36m[0m
+  [36m 95[0m  [36m(defn reveal-all-x [board model][0m
+  [36m 96[0m  [36m  (let [size (count board)][0m
+  [33m 97[0m  [1m    (map (fn [y] ()) (range x))))[0m
+  [0m   [0m  [33m                            ^--- Use of undeclared Var ms.mines/x[0m
+  [36m 98[0m  [36m[0m
+  [36m 99[0m  [36m(defn reveal[0m
+  [36m100[0m  [36m  "Gets what it's on the 'pos' coordinate of the model, it paste it[0m
+  [36m101[0m  [36m  on the board."[0m
+  [36m102[0m  [36m  [board model pos op][0m
+
+[36m----  Compiler Warning : Please see src/ms/mines.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.082 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.066 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.967 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.93 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/ms.js" in 0.315 seconds.[0m
+[36m----  Could not Analyze  src/ms/mines.cljs   line:97  column:31  ----[0m
+
+  [1mToo few arguments to if at line 97 /home/lucas/Dropbox/Clojure/reagent-minesweeper/src/ms/mines.cljs[0m
+
+  [36m95[0m  [36m(defn reveal-all-x [board model][0m
+  [36m96[0m  [36m  (let [size (range (count board))][0m
+  [33m97[0m  [1m    (map (fn [y] (map (fn [x] (if (= (get-pos model [x y]) mine-s)))[0m
+  [0m  [0m  [33m                              ^--- Too few arguments to if at line 97 /home/lucas/Dropbox/Clojure/reagent-minesweeper/src/ms/mines.cljs[0m
+  [36m98[0m  [36m                      size))[0m
+  [36m99[0m  [36m         size)))[0m
+
+[36m----  Analysis Error : Please see src/ms/mines.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.961 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.996 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.936 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.149 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/mines.cljs   line:107  column:30  ----[0m
+
+  [1mUse of undeclared Var ms.mines/reveal-all-x[0m
+
+  [36m103[0m  [36m  "Gets what it's on the 'pos' coordinate of the model, it paste it[0m
+  [36m104[0m  [36m  on the board."[0m
+  [36m105[0m  [36m  [board model pos op][0m
+  [36m106[0m  [36m  (let [in-pos (get-pos model pos)][0m
+  [33m107[0m  [1m    (cond (= mine-s in-pos) (reveal-all-x board model)[0m
+  [0m   [0m  [33m                             ^--- Use of undeclared Var ms.mines/reveal-all-x[0m
+  [36m108[0m  [36m          (= "0" in-pos)    (reveal-if-0 board model pos op)[0m
+  [36m109[0m  [36m          :else             (put-in-board board pos in-pos))))[0m
+  [36m110[0m  [36m[0m
+  [36m111[0m  [36m(defn end?[0m
+  [36m112[0m  [36m  "Checks if the player has lost or win. If not, returns false"[0m
+
+[36m----  Compiler Warning : Please see src/ms/mines.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.037 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.965 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.973 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.898 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.755 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.768 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.889 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.719 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.963 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.777 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.835 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.806 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:22  column:32  ----[0m
+
+  [1mUse of undeclared Var ms.core/%[0m
+
+  [36m18[0m  [36m    (str (format2 min) ":" (format2 s))))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn on-click [end pos][0m
+  [36m21[0m  [36m  (when-not (first end)[0m
+  [33m22[0m  [1m    (swap! board (mines/reveal % @model pos mines/mines-op))))[0m
+  [0m  [0m  [33m                               ^--- Use of undeclared Var ms.core/%[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m(defn r-click [end pos][0m
+  [36m25[0m  [36m  (when-not (first end)[0m
+  [36m26[0m  [36m    (let [in-pos (mines/get-pos @board pos)][0m
+  [36m27[0m  [36m      (if (= in-pos mines/flag-s)[0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.935 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.842 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/mines.cljs   line:107  column:29  ----[0m
+
+  [1mWrong number of args (4) passed to ms.mines/reveal-all-x[0m
+
+  [36m103[0m  [36m  "Gets what it's on the 'pos' coordinate of the model, it paste it[0m
+  [36m104[0m  [36m  on the board."[0m
+  [36m105[0m  [36m  [board model pos op][0m
+  [36m106[0m  [36m  (let [in-pos (get-pos model pos)][0m
+  [33m107[0m  [1m    (cond (= mine-s in-pos) (reveal-all-x board model pos op)[0m
+  [0m   [0m  [33m                            ^--- Wrong number of args (4) passed to ms.mines/reveal-all-x[0m
+  [36m108[0m  [36m          (= "0" in-pos)    (reveal-if-0 board model pos op)[0m
+  [36m109[0m  [36m          :else             (put-in-board board pos in-pos))))[0m
+  [36m110[0m  [36m[0m
+  [36m111[0m  [36m(defn end?[0m
+  [36m112[0m  [36m  "Checks if the player has lost or win. If not, returns false"[0m
+
+[36m----  Compiler Warning : Please see src/ms/mines.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.014 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.939 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:22  column:19  ----[0m
+
+  [1mUse of undeclared Var ms.core/get-pos[0m
+
+  [36m18[0m  [36m    (str (format2 min) ":" (format2 s))))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn on-click [end pos][0m
+  [36m21[0m  [36m  (when-not (first end)[0m
+  [33m22[0m  [1m    (let [in-pos (get-pos @model pos)])[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var ms.core/get-pos[0m
+  [36m23[0m  [36m    (swap! board #(mines/reveal % @model pos mines/mines-op))))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn r-click [end pos][0m
+  [36m26[0m  [36m  (when-not (first end)[0m
+  [36m27[0m  [36m    (let [in-pos (mines/get-pos @board pos)][0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.893 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:22  column:19  ----[0m
+
+  [1mUse of undeclared Var ms.core/get-pos[0m
+
+  [36m18[0m  [36m    (str (format2 min) ":" (format2 s))))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn on-click [end pos][0m
+  [36m21[0m  [36m  (when-not (first end)[0m
+  [33m22[0m  [1m    (let [in-pos (get-pos @model pos)][0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var ms.core/get-pos[0m
+  [36m23[0m  [36m      (case in-pos))[0m
+  [36m24[0m  [36m    (swap! board #(mines/reveal % @model pos mines/mines-op))))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn r-click [end pos][0m
+  [36m27[0m  [36m  (when-not (first end)[0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.973 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:22  column:19  ----[0m
+
+  [1mUse of undeclared Var ms.core/get-pos[0m
+
+  [36m18[0m  [36m    (str (format2 min) ":" (format2 s))))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn on-click [end pos][0m
+  [36m21[0m  [36m  (when-not (first end)[0m
+  [33m22[0m  [1m    (let [in-pos (get-pos @model pos)][0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var ms.core/get-pos[0m
+  [36m23[0m  [36m      (case in-pos[0m
+  [36m24[0m  [36m        mine-s))[0m
+  [36m25[0m  [36m    (swap! board #(mines/reveal % @model pos mines/mines-op))))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m(defn r-click [end pos][0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:24  column:9  ----[0m
+
+  [1mUse of undeclared Var ms.core/mine-s[0m
+
+  [36m20[0m  [36m(defn on-click [end pos][0m
+  [36m21[0m  [36m  (when-not (first end)[0m
+  [36m22[0m  [36m    (let [in-pos (get-pos @model pos)][0m
+  [36m23[0m  [36m      (case in-pos[0m
+  [33m24[0m  [1m        mine-s))[0m
+  [0m  [0m  [33m        ^--- Use of undeclared Var ms.core/mine-s[0m
+  [36m25[0m  [36m    (swap! board #(mines/reveal % @model pos mines/mines-op))))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m(defn r-click [end pos][0m
+  [36m28[0m  [36m  (when-not (first end)[0m
+  [36m29[0m  [36m    (let [in-pos (mines/get-pos @board pos)][0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.936 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:22  column:19  ----[0m
+
+  [1mUse of undeclared Var ms.core/get-pos[0m
+
+  [36m18[0m  [36m    (str (format2 min) ":" (format2 s))))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn on-click [end pos][0m
+  [36m21[0m  [36m  (when-not (first end)[0m
+  [33m22[0m  [1m    (let [in-pos (get-pos @model pos)][0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var ms.core/get-pos[0m
+  [36m23[0m  [36m      (case in-pos[0m
+  [36m24[0m  [36m        mine-s (swap! board #(mines/reveal-all-x % @model))))[0m
+  [36m25[0m  [36m    (swap! board #(mines/reveal % @model pos mines/mines-op))))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m(defn r-click [end pos][0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.862 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:22  column:19  ----[0m
+
+  [1mUse of undeclared Var ms.core/get-pos[0m
+
+  [36m18[0m  [36m    (str (format2 min) ":" (format2 s))))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn on-click [end pos][0m
+  [36m21[0m  [36m  (when-not (first end)[0m
+  [33m22[0m  [1m    (let [in-pos (get-pos @model pos)][0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var ms.core/get-pos[0m
+  [36m23[0m  [36m      (case in-pos[0m
+  [36m24[0m  [36m        mine-s (swap! board #(mines/reveal-all-x % @model))[0m
+  [36m25[0m  [36m        (swap! board #(mines/reveal % @model pos mines/mines-op))))))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m(defn r-click [end pos][0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.852 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.868 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.938 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.805 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.758 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
