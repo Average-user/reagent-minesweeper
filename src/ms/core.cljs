@@ -2,8 +2,9 @@
   (:require [reagent.core :as reagent :refer [atom]]
             [ms.mines :as mines]))
 
+(def op (atom mines/mines-op))
 (def board (atom (mines/create-board 16)))
-(def model (atom (mines/create-model 16 40 mines/mines-op)))
+(def model (atom (mines/create-model 16 40 @op)))
 (def end-a (atom [false nil]))
 (def seconds (atom 0))
 
@@ -19,7 +20,7 @@
 
 (defn on-click [end pos]
   (when-not (first end)
-    (swap! board #(mines/reveal % @model pos mines/mines-op))))
+    (swap! board #(mines/reveal % @model pos @op))))
 
 (defn r-click [end pos]
   (when-not (first end)
@@ -50,7 +51,7 @@
               [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil]
               [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil]
               [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil]])
-;(def board (atom (mines/put-numbers best mines/mines-op)))
+;(def board (atom (mines/put-numbers best op)))
 ;this is just to test the color of any number
 
 
@@ -114,7 +115,28 @@
       (reset! seconds 0)
       (reset! board (mines/create-board 16))
       (reset! model (mines/create-model 16 40
-                                        mines/mines-op))))
+                                        @op))))
+
+(defn mode-component []
+  (if (= @op mines/mines-op)
+    [:table {:style {:margin-left "13%"}}
+     [:th
+      [:td.ms {:on-click #(do (reset! op mines/mines-op) (restart))}
+        [:image {:src "img/mine.png"
+                 :style {:width "70px" :height "70px"}}]]
+      [:td.mn {:on-click #(do (reset! op mines/knights-op) (restart))}
+        [:image {:src "img/knight.png"
+                 :style {:width "70px" :height "70px"}}]]]]
+
+    [:table {:style {:margin-left "13%"}}
+     [:th
+      [:td.mn {:on-click #(do (reset! op mines/mines-op) (restart))}
+        [:image {:src "img/mine.png"
+                 :style {:width "70px" :height "70px"}}]]
+      [:td.ms {:on-click #(do (reset! op mines/knights-op) (restart))}
+        [:image {:src "img/knight.png"
+                 :style {:width "70px" :height "70px"}}]]]]))
+
 
 (defn game []
   [:div
@@ -122,6 +144,7 @@
           [:button.restart
            {:on-click #(restart)}
            "Start Over"]]
+    [mode-component]
     [render-board 16 16]
     (when (first @end-a)
       [:div.overlay

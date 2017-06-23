@@ -10710,3 +10710,891 @@ notifying browser that file changed:  resources/public/js/compiled/out/ms/core.j
 [0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
 [32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.758 seconds.[0m
 notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.906 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/ms.js" in 0.559 seconds.[0m
+[36m----  Could not Analyze  src/ms/core.cljs   line:120  column:1  ----[0m
+
+  [1mParameter declaration missing[0m
+
+  [36m118[0m  [36m                                        op))))[0m
+  [36m119[0m  [36m[0m
+  [33m120[0m  [1m(defn mode-commponent)[0m
+  [0m   [0m  [33m^--- Parameter declaration missing[0m
+  [36m121[0m  [36m[0m
+  [36m122[0m  [36m(defn game [][0m
+  [36m123[0m  [36m  [:div[0m
+
+[36m----  Analysis Error : Please see src/ms/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 2.122 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.951 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.827 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.771 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.909 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.988 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.156 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.816 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.803 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.908 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.631 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.031 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.849 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.759 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.826 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.829 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.814 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.844 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.771 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.755 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.822 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.918 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.956 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.924 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.858 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.901 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.966 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.825 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.979 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.892 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.84 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.892 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.936 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.886 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.945 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/ms.js" in 0.574 seconds.[0m
+[36m----  Could not Analyze  src/ms/core.cljs   line:122  column:4  ----[0m
+
+  [1mToo few arguments to if at line 122 /home/lucas/Dropbox/Clojure/reagent-minesweeper/src/ms/core.cljs[0m
+
+  [36m120[0m  [36m(defn mode-component [][0m
+  [36m121[0m  [36m  [:div[0m
+  [33m122[0m  [1m   (if (= op mines/mines-op))[0m
+  [0m   [0m  [33m   ^--- Too few arguments to if at line 122 /home/lucas/Dropbox/Clojure/reagent-minesweeper/src/ms/core.cljs[0m
+  [36m123[0m  [36m   [:button.modes "Change to Knightsweeper"][0m
+  [36m124[0m  [36m   [:button.modes "Minesweeper"]])[0m
+
+[36m----  Analysis Error : Please see src/ms/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.033 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.781 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.161 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.978 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.008 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.777 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.996 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.98 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.914 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.011 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:123  column:34  ----[0m
+
+  [1mUse of undeclared Var ms.core/reset[0m
+
+  [36m120[0m  [36m(defn mode-component [][0m
+  [36m121[0m  [36m  [:div[0m
+  [36m122[0m  [36m   (if (= @op mines/mines-op)[0m
+  [33m123[0m  [1m     [:div.modes {:on-lick #(do (reset op mines/knights-op))}[0m
+  [0m   [0m  [33m                                 ^--- Use of undeclared Var ms.core/reset[0m
+  [36m124[0m  [36m      "Change to Knightsweeper"][0m
+  [36m125[0m  [36m     [:button.modes "Change to Minesweeper"])])[0m
+  [36m126[0m  [36m[0m
+  [36m127[0m  [36m(defn game [][0m
+  [36m128[0m  [36m  [:div[0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.887 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:123  column:34  ----[0m
+
+  [1mUse of undeclared Var ms.core/reset[0m
+
+  [36m120[0m  [36m(defn mode-component [][0m
+  [36m121[0m  [36m  [:div[0m
+  [36m122[0m  [36m   (if (= @op mines/mines-op)[0m
+  [33m123[0m  [1m     [:div.modes {:on-lick #(do (reset op mines/knights-op) (restart))}[0m
+  [0m   [0m  [33m                                 ^--- Use of undeclared Var ms.core/reset[0m
+  [36m124[0m  [36m      "Change to Knightsweeper"][0m
+  [36m125[0m  [36m     [:button.modes "Change to Minesweeper"])])[0m
+  [36m126[0m  [36m[0m
+  [36m127[0m  [36m(defn game [][0m
+  [36m128[0m  [36m  [:div[0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.829 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.962 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.741 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.929 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.997 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.764 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.798 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.277 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.192 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/ms.js" in 0.652 seconds.[0m
+[36m----  Could not Read  src/ms/core.cljs   line:124  column:56  ----[0m
+
+  [1mInvalid number format [13px][0m
+
+  [36m122[0m  [36m(if (= @op mines/mines-op)[0m
+  [36m123[0m  [36m  [:div.modes {:on-click #(do (reset! op mines/knights-op) (restart))}[0m
+  [33m124[0m  [1m   [:image {:src "img/mine.png" {:style {:widht 13px}}}]][0m
+  [0m   [0m  [33m                                                    ^--- Invalid number format [13px][0m
+  [36m125[0m  [36m  [:button.modes {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m126[0m  [36m   "Change to Minesweeper"])])[0m
+
+[36m----  Reader Error : Please see src/ms/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/ms.js" in 0.802 seconds.[0m
+[36m----  Could not Read  src/ms/core.cljs   line:124  column:61  ----[0m
+
+  [1mMap literal must contain an even number of forms[0m
+
+  [36m122[0m  [36m(if (= @op mines/mines-op)[0m
+  [36m123[0m  [36m  [:div.modes {:on-click #(do (reset! op mines/knights-op) (restart))}[0m
+  [33m124[0m  [1m   [:image {:src "img/mine.png" {:style {:widht "10px"}}}]][0m
+  [0m   [0m  [33m                                                         ^--- Map literal must contain an even number of forms[0m
+  [36m125[0m  [36m  [:button.modes {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m126[0m  [36m   "Change to Minesweeper"])])[0m
+
+[36m----  Reader Error : Please see src/ms/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/ms.js" in 0.629 seconds.[0m
+[36m----  Could not Read  src/ms/core.cljs   line:124  column:61  ----[0m
+
+  [1mMap literal must contain an even number of forms[0m
+
+  [36m122[0m  [36m(if (= @op mines/mines-op)[0m
+  [36m123[0m  [36m  [:div.modes {:on-click #(do (reset! op mines/knights-op) (restart))}[0m
+  [33m124[0m  [1m   [:image {:src "img/mine.png" {:style {:widtt "10px"}}}]][0m
+  [0m   [0m  [33m                                                         ^--- Map literal must contain an even number of forms[0m
+  [36m125[0m  [36m  [:button.modes {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m126[0m  [36m   "Change to Minesweeper"])])[0m
+
+[36m----  Reader Error : Please see src/ms/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.143 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.088 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.978 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.973 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.68 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.044 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.989 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.128 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.151 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.007 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.119 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.359 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.079 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.025 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.021 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.026 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.067 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.95 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.18 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.038 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.714 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.265 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.943 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.07 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.051 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/ms.js" in 0.632 seconds.[0m
+[36m----  Could not Read  src/ms/core.cljs   line:159  column:1  ----[0m
+
+  [1mEOF while reading string[0m
+
+[36m----  Reader Error : Please see src/ms/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/ms.js" in 0.698 seconds.[0m
+[36m----  Could not Read  src/ms/core.cljs   line:159  column:1  ----[0m
+
+  [1mEOF while reading string[0m
+
+[36m----  Reader Error : Please see src/ms/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.916 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.018 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.023 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.124 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.087 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.141 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.94 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.147 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.973 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.158 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.167 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.188 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.05 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.175 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.085 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:130  column:1  ----[0m
+
+  [1mUse of undeclared Var ms.core/s[0m
+
+  [36m126[0m  [36m      [:div.mn {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m127[0m  [36m        [:image {:src "img/knight.png"[0m
+  [36m128[0m  [36m                 :style {:width "70px" :height "70px"}}]]]))[0m
+  [36m129[0m  [36m[0m
+  [33m130[0m  [1ms[0m
+  [0m   [0m  [33m^--- Use of undeclared Var ms.core/s[0m
+  [36m131[0m  [36m[:div[0m
+  [36m132[0m  [36m  [:div.mn {:on-click #(do (reset! op mines/knights-op) (restart))}[0m
+  [36m133[0m  [36m    [:image {:src "img/mine.png"[0m
+  [36m134[0m  [36m             :style {:width "70px" :height "70px"}}]][0m
+  [36m135[0m  [36m  [:div.ms {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.134 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.908 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.038 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.918 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.982 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.965 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.184 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:126  column:43  ----[0m
+
+  [1mUse of undeclared Var ms.mines/kingth-op[0m
+
+  [36m122[0m  [36m    [:div[0m
+  [36m123[0m  [36m      [:div.ms {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m124[0m  [36m        [:image {:src "img/mine.png"[0m
+  [36m125[0m  [36m                 :style {:width "70px" :height "70px"}}]][0m
+  [33m126[0m  [1m      [:div.mn {:on-click #(do (reset! op mines/kingth-op) (restart))}[0m
+  [0m   [0m  [33m                                          ^--- Use of undeclared Var ms.mines/kingth-op[0m
+  [36m127[0m  [36m        [:image {:src "img/knight.png"[0m
+  [36m128[0m  [36m                 :style {:width "70px" :height "70px"}}]]][0m
+  [36m129[0m  [36m[0m
+  [36m130[0m  [36m    [:div[0m
+  [36m131[0m  [36m      [:div.mn {:on-click #(do (reset! op mines/knights-op) (restart))}[0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.066 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:126  column:43  ----[0m
+
+  [1mUse of undeclared Var ms.mines/kingths-op[0m
+
+  [36m122[0m  [36m    [:div[0m
+  [36m123[0m  [36m      [:div.ms {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m124[0m  [36m        [:image {:src "img/mine.png"[0m
+  [36m125[0m  [36m                 :style {:width "70px" :height "70px"}}]][0m
+  [33m126[0m  [1m      [:div.mn {:on-click #(do (reset! op mines/kingths-op) (restart))}[0m
+  [0m   [0m  [33m                                          ^--- Use of undeclared Var ms.mines/kingths-op[0m
+  [36m127[0m  [36m        [:image {:src "img/knight.png"[0m
+  [36m128[0m  [36m                 :style {:width "70px" :height "70px"}}]]][0m
+  [36m129[0m  [36m[0m
+  [36m130[0m  [36m    [:div[0m
+  [36m131[0m  [36m      [:div.mn {:on-click #(do (reset! op mines/knights-op) (restart))}[0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.066 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:126  column:43  ----[0m
+
+  [1mUse of undeclared Var ms.mines/kingths-op[0m
+
+  [36m122[0m  [36m    [:div[0m
+  [36m123[0m  [36m      [:div.ms {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m124[0m  [36m        [:image {:src "img/mine.png"[0m
+  [36m125[0m  [36m                 :style {:width "70px" :height "70px"}}]][0m
+  [33m126[0m  [1m      [:div.mn {:on-click #(do (reset! op mines/kingths-op) (restart))}[0m
+  [0m   [0m  [33m                                          ^--- Use of undeclared Var ms.mines/kingths-op[0m
+  [36m127[0m  [36m        [:image {:src "img/knight.png"[0m
+  [36m128[0m  [36m                 :style {:width "70px" :height "70px"}}]]][0m
+  [36m129[0m  [36m[0m
+  [36m130[0m  [36m    [:div[0m
+  [36m131[0m  [36m      [:div.mn {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.312 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:126  column:43  ----[0m
+
+  [1mUse of undeclared Var ms.mines/kingths-op[0m
+
+  [36m122[0m  [36m    [:div[0m
+  [36m123[0m  [36m      [:div.ms {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m124[0m  [36m        [:image {:src "img/mine.png"[0m
+  [36m125[0m  [36m                 :style {:width "70px" :height "70px"}}]][0m
+  [33m126[0m  [1m      [:div.mn {:on-click #(do (reset! op mines/kingths-op) (restart))}[0m
+  [0m   [0m  [33m                                          ^--- Use of undeclared Var ms.mines/kingths-op[0m
+  [36m127[0m  [36m        [:image {:src "img/knight.png"[0m
+  [36m128[0m  [36m                 :style {:width "70px" :height "70px"}}]]][0m
+  [36m129[0m  [36m[0m
+  [36m130[0m  [36m    [:div[0m
+  [36m131[0m  [36m      [:div.mn {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:134  column:43  ----[0m
+
+  [1mUse of undeclared Var ms.mines/kingths-op[0m
+
+  [36m130[0m  [36m    [:div[0m
+  [36m131[0m  [36m      [:div.mn {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m132[0m  [36m        [:image {:src "img/mine.png"[0m
+  [36m133[0m  [36m                 :style {:width "70px" :height "70px"}}]][0m
+  [33m134[0m  [1m      [:div.ms {:on-click #(do (reset! op mines/kingths-op) (restart))}[0m
+  [0m   [0m  [33m                                          ^--- Use of undeclared Var ms.mines/kingths-op[0m
+  [36m135[0m  [36m        [:image {:src "img/knight.png"[0m
+  [36m136[0m  [36m                 :style {:width "70px" :height "70px"}}]]]))[0m
+  [36m137[0m  [36m[0m
+  [36m138[0m  [36m[0m
+  [36m139[0m  [36m(defn game [][0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.34 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:126  column:43  ----[0m
+
+  [1mUse of undeclared Var ms.mines/kingth-op[0m
+
+  [36m122[0m  [36m    [:div[0m
+  [36m123[0m  [36m      [:div.ms {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m124[0m  [36m        [:image {:src "img/mine.png"[0m
+  [36m125[0m  [36m                 :style {:width "70px" :height "70px"}}]][0m
+  [33m126[0m  [1m      [:div.mn {:on-click #(do (reset! op mines/kingth-op) (restart))}[0m
+  [0m   [0m  [33m                                          ^--- Use of undeclared Var ms.mines/kingth-op[0m
+  [36m127[0m  [36m        [:image {:src "img/knight.png"[0m
+  [36m128[0m  [36m                 :style {:width "70px" :height "70px"}}]]][0m
+  [36m129[0m  [36m[0m
+  [36m130[0m  [36m    [:div[0m
+  [36m131[0m  [36m      [:div.mn {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:134  column:43  ----[0m
+
+  [1mUse of undeclared Var ms.mines/kingth-op[0m
+
+  [36m130[0m  [36m    [:div[0m
+  [36m131[0m  [36m      [:div.mn {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m132[0m  [36m        [:image {:src "img/mine.png"[0m
+  [36m133[0m  [36m                 :style {:width "70px" :height "70px"}}]][0m
+  [33m134[0m  [1m      [:div.ms {:on-click #(do (reset! op mines/kingth-op) (restart))}[0m
+  [0m   [0m  [33m                                          ^--- Use of undeclared Var ms.mines/kingth-op[0m
+  [36m135[0m  [36m        [:image {:src "img/knight.png"[0m
+  [36m136[0m  [36m                 :style {:width "70px" :height "70px"}}]]]))[0m
+  [36m137[0m  [36m[0m
+  [36m138[0m  [36m[0m
+  [36m139[0m  [36m(defn game [][0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.212 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:126  column:43  ----[0m
+
+  [1mUse of undeclared Var ms.mines/kinghts-op[0m
+
+  [36m122[0m  [36m    [:div[0m
+  [36m123[0m  [36m      [:div.ms {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m124[0m  [36m        [:image {:src "img/mine.png"[0m
+  [36m125[0m  [36m                 :style {:width "70px" :height "70px"}}]][0m
+  [33m126[0m  [1m      [:div.mn {:on-click #(do (reset! op mines/kinghts-op) (restart))}[0m
+  [0m   [0m  [33m                                          ^--- Use of undeclared Var ms.mines/kinghts-op[0m
+  [36m127[0m  [36m        [:image {:src "img/knight.png"[0m
+  [36m128[0m  [36m                 :style {:width "70px" :height "70px"}}]]][0m
+  [36m129[0m  [36m[0m
+  [36m130[0m  [36m    [:div[0m
+  [36m131[0m  [36m      [:div.mn {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:134  column:43  ----[0m
+
+  [1mUse of undeclared Var ms.mines/kinghts-op[0m
+
+  [36m130[0m  [36m    [:div[0m
+  [36m131[0m  [36m      [:div.mn {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m132[0m  [36m        [:image {:src "img/mine.png"[0m
+  [36m133[0m  [36m                 :style {:width "70px" :height "70px"}}]][0m
+  [33m134[0m  [1m      [:div.ms {:on-click #(do (reset! op mines/kinghts-op) (restart))}[0m
+  [0m   [0m  [33m                                          ^--- Use of undeclared Var ms.mines/kinghts-op[0m
+  [36m135[0m  [36m        [:image {:src "img/knight.png"[0m
+  [36m136[0m  [36m                 :style {:width "70px" :height "70px"}}]]]))[0m
+  [36m137[0m  [36m[0m
+  [36m138[0m  [36m[0m
+  [36m139[0m  [36m(defn game [][0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.168 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:126  column:43  ----[0m
+
+  [1mUse of undeclared Var ms.mines/kinghts-op[0m
+
+  [36m122[0m  [36m    [:div[0m
+  [36m123[0m  [36m      [:div.ms {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m124[0m  [36m        [:image {:src "img/mine.png"[0m
+  [36m125[0m  [36m                 :style {:width "70px" :height "70px"}}]][0m
+  [33m126[0m  [1m      [:div.mn {:on-click #(do (reset! op mines/kinghts-op) (restart))}[0m
+  [0m   [0m  [33m                                          ^--- Use of undeclared Var ms.mines/kinghts-op[0m
+  [36m127[0m  [36m        [:image {:src "img/knight.png"[0m
+  [36m128[0m  [36m                 :style {:width "70px" :height "70px"}}]]][0m
+  [36m129[0m  [36m[0m
+  [36m130[0m  [36m    [:div[0m
+  [36m131[0m  [36m      [:div.mn {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/ms/core.cljs   line:134  column:43  ----[0m
+
+  [1mUse of undeclared Var ms.mines/kinghts-op[0m
+
+  [36m130[0m  [36m    [:div[0m
+  [36m131[0m  [36m      [:div.mn {:on-click #(do (reset! op mines/mines-op) (restart))}[0m
+  [36m132[0m  [36m        [:image {:src "img/mine.png"[0m
+  [36m133[0m  [36m                 :style {:width "70px" :height "70px"}}]][0m
+  [33m134[0m  [1m      [:div.ms {:on-click #(do (reset! op mines/kinghts-op) (restart))}[0m
+  [0m   [0m  [33m                                          ^--- Use of undeclared Var ms.mines/kinghts-op[0m
+  [36m135[0m  [36m        [:image {:src "img/knight.png"[0m
+  [36m136[0m  [36m                 :style {:width "70px" :height "70px"}}]]]))[0m
+  [36m137[0m  [36m[0m
+  [36m138[0m  [36m[0m
+  [36m139[0m  [36m(defn game [][0m
+
+[36m----  Compiler Warning : Please see src/ms/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.246 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.164 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.906 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.857 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.885 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.889 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.054 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.914 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.954 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.002 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.015 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.72 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.915 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.985 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.988 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.991 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.984 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.806 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.842 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.952 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.965 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.144 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.026 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.881 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.952 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.928 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.975 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.953 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.133 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.997 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.011 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.118 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.109 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.05 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.922 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.679 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
