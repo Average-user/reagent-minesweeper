@@ -35,26 +35,6 @@
     [:h1.time  (str "⏲ " (seconds->minutes @seconds))])
 
 
-(def color-t [[nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil]
-              [nil "💣" nil "💣" "💣" nil "💣" "💣" "💣" nil nil "💣" "💣" "💣" nil nil]
-              [nil nil nil nil nil nil nil nil nil nil nil "💣" nil nil nil nil]
-              [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil]
-              [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil]
-              [nil "💣" "💣" "💣" nil nil nil nil nil nil "💣" "💣" "💣" nil nil nil]
-              [nil "💣" nil "💣"  nil nil nil nil nil nil "💣" nil "💣" nil nil nil]
-              [nil nil nil nil nil nil nil nil nil nil nil nil "💣" nil nil nil]
-              [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil]
-              [nil "💣" "💣" "💣" nil nil nil "💣" "💣" "💣" nil nil nil nil nil nil]
-              [nil "💣" nil "💣" nil nil nil "💣" nil "💣" nil nil nil nil nil nil]
-              [nil "💣" nil "💣" nil nil nil "💣" "💣" "💣" nil nil nil nil nil nil]
-              [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil]
-              [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil]
-              [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil]
-              [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil]])
-;(def board (atom (mines/put-numbers best op)))
-;this is just to test the color of any number
-
-
 (defn decide-style [e]
   (case e
     "1"          [:td.cell {:style {:color "blue"}} e]
