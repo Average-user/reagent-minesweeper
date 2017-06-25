@@ -4,12 +4,11 @@ body {
 }
 
 .stage {
-    bottom: 0;
     left: 0;
     margin: auto;
     position: absolute;
     right: 0;
-    top: 5%;
+    top: 2%;
     z-index: 2;
     border: solid gray;
 }
@@ -103,4 +102,8 @@ p {
 .ms {
   background-color: white;
   border: solid 3px OrangeRed;
+}
+
+.cellE:hover {
+  background-color:  rgba(0, 0, 0, 0.1);
 }
