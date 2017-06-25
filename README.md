@@ -1,6 +1,6 @@
-# ms
+# Mine-Knightsweeper
 
-A simple 16 16 with 40 mines, minesweeper made with reagent and clojure.
+A simple 16 16 with 40 mines, mine-knightsweeper, made with Clojurescript using Reagent Template.
 
 ![](https://github.com/Average-user/reagent-minesweeper/blob/master/resources/public/img/rms.png?raw=true)
 

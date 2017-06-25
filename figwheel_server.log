@@ -11675,3 +11675,31 @@ notifying browser that file changed:  resources/public/js/compiled/out/ms/core.j
 [0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
 [32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.788 seconds.[0m
 notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 2.081 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 2.47 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
