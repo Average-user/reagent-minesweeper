@@ -11621,3 +11621,57 @@ Notifying browser that CSS file changed: resources/public/css/style.css
 Notifying browser that CSS file changed: resources/public/css/style.css
 Notifying browser that CSS file changed: resources/public/css/style.css
 Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 2.022 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 2.03 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.86 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 2.064 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.836 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.623 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.736 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 2.167 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.587 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 2.077 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 4.281 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/mines.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 2.934 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.688 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 1.782 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js
+[0mCompiling "resources/public/js/compiled/ms.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/ms.js" in 0.788 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/ms/core.js

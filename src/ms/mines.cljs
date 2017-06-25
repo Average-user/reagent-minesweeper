@@ -92,8 +92,9 @@
         b
         (recur (reveal b m (first n) op) (rest n))))))
 
-(defn reveal-all-x [board model]
-  (mapv (fn [l y] (mapv (fn [e x] (if (= (get-pos model [x y]) mine-s)
+(defn reveal-all-x [board model pos]
+  (mapv (fn [l y] (mapv (fn [e x] (if (and (not (= [x y] pos))
+                                           (= (get-pos model [x y]) mine-s))
                                     mine-s
                                     e))
                         l (range (count l))))
@@ -104,9 +105,9 @@
   on the board."
   [board model pos op]
   (let [in-pos (get-pos model pos)]
-    (cond (= mine-s in-pos) (reveal-all-x board model)
-          (= "0" in-pos)    (reveal-if-0 board model pos op)
-          :else             (put-in-board board pos in-pos))))
+   (cond (= mine-s in-pos) (reveal-all-x (put-in-board board pos "x") model pos)
+         (= "0" in-pos)    (reveal-if-0 board model pos op)
+         :else             (put-in-board board pos in-pos))))
 
 (defn end?
   "Checks if the player has lost or win. If not, returns false"

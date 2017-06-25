@@ -45,7 +45,8 @@
     "6"          [:td.cell {:style {:color "Teal"}} e]
     "7"          [:td.cell {:style {:color "black"}} e]
     "8"          [:td.cell {:style {:color "OrangeRed"}} e]
-                 [:td.cellB {:style {:color "red"}} e]))
+    "x"          [:td.cellB {:style {:color "red"}} mines/mine-s]
+                 [:td.cellB {:style {:color "black"}} e]))
 
 
 
