@@ -38,6 +38,6 @@ get live reloading, nor a REPL.
 
 ## License
 
-Copyright © 2017 reagent-minesweeper
+Copyright © 2017 Lucas Polyméris
 
 Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
