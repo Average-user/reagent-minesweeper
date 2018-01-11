@@ -1,17 +1,15 @@
 (ns ms.core
   (:require [reagent.core :as reagent :refer [atom]]
-            [ms.mines :as mines]))
+            [ms.logic :as logic]))
 
-(def op (atom mines/mines-op))
-(def board (atom (mines/create-board 16)))
-(def model (atom (mines/create-model 16 40 @op)))
-(def end-a (atom [false nil]))
+(def op      (atom logic/mines-op))
+(def board   (atom (logic/create-board 16)))
+(def model   (atom (logic/create-model 16 40 @op)))
+(def end-a   (atom [false nil]))
 (def seconds (atom 0))
 
 (defn format2 [n]
-  (if (> n 9)
-    (str n)
-    (str "0" n)))
+  (if (> n 9) (str n) (str "0" n)))
 
 (defn seconds->minutes [sec]
   (let [min (quot sec 60)
@@ -20,42 +18,39 @@
 
 (defn on-click [end pos]
   (when-not (first end)
-    (swap! board #(mines/reveal % @model pos @op))))
+    (swap! board #(logic/reveal % @model pos @op))))
 
 (defn r-click [end pos]
   (when-not (first end)
-    (let [in-pos (mines/get-pos @board pos)]
-      (if (= in-pos mines/flag-s)
-        (swap! board #(mines/put-in-board % pos nil))
-        (swap! board #(mines/put-in-board % pos mines/flag-s))))))
+    (let [in-pos (logic/get-pos @board pos)]
+      (if (= in-pos logic/flag-s)
+        (swap! board #(logic/put-in-board % pos nil))
+        (swap! board #(logic/put-in-board % pos logic/flag-s))))))
 
 (js/setInterval #(when-not (first @end-a) (swap! seconds inc)) 1000)
 
 (defn timer []
-    [:h1.time  (str "⏲ " (seconds->minutes @seconds))])
-
+    [:h1.time (str "⏲ " (seconds->minutes @seconds))])
 
 (defn decide-style [e]
   (case e
-    "1"          [:td.cell {:style {:color "blue"}} e]
-    "2"          [:td.cell {:style {:color "green"}} e]
-    "3"          [:td.cell {:style {:color "red"}} e]
-    "4"          [:td.cell {:style {:color "DarkBlue"}} e]
-    "5"          [:td.cell {:style {:color "DarkRed"}} e]
-    "6"          [:td.cell {:style {:color "Teal"}} e]
-    "7"          [:td.cell {:style {:color "black"}} e]
-    "8"          [:td.cell {:style {:color "OrangeRed"}} e]
-    "x"          [:td.cellB {:style {:color "red"}} mines/mine-s]
-                 [:td.cellB {:style {:color "black"}} e]))
-
-
+    "1" [:td.cell  {:style {:color "blue"}} e]
+    "2" [:td.cell  {:style {:color "green"}} e]
+    "3" [:td.cell  {:style {:color "red"}} e]
+    "4" [:td.cell  {:style {:color "DarkBlue"}} e]
+    "5" [:td.cell  {:style {:color "DarkRed"}} e]
+    "6" [:td.cell  {:style {:color "Teal"}} e]
+    "7" [:td.cell  {:style {:color "black"}} e]
+    "8" [:td.cell  {:style {:color "OrangeRed"}} e]
+    "x" [:td.cellB {:style {:color "Red"}} logic/mine-s]
+        [:td.cellB {:style {:color "black"}} e]))
 
 (defn render-board [x y]
-  (let [end (mines/end? @board 40)
+  (let [end (logic/end? @board 40)
         cells (for [y1 (range y)]
                 (into [:tr]
                       (for [x1 (range x)
-                            :let [in-pos (mines/get-pos @board [x1 y1])]]
+                            :let [in-pos (logic/get-pos @board [x1 y1])]]
                          (cond (= in-pos nil)
                                [:td.cellE {:on-click #(on-click end [x1 y1])
                                            :onContextMenu
@@ -72,7 +67,7 @@
                                              (when (= 2 (.-button e))
                                                (r-click end [x1 y1])))}]
 
-                               (= in-pos mines/flag-s)
+                               (= in-pos logic/flag-s)
                                [:td.cell {:onContextMenu
                                           (fn [e]
                                             (.preventDefault e)
@@ -89,32 +84,33 @@
     (when (first end)
       (reset! end-a end))
     (into [:table.stage
-           {:style {:height 510 :width 510 :table-layout "fixed"}}] cells)))
+           {:style {:height 510 :width 510 :table-layout "fixed"}}]
+          cells)))
 
 (defn restart []
   (do (reset! end-a [false nil])
       (reset! seconds 0)
-      (reset! board (mines/create-board 16))
-      (reset! model (mines/create-model 16 40
+      (reset! board (logic/create-board 16))
+      (reset! model (logic/create-model 16 40
                                         @op))))
 
 (defn mode-component []
-  (if (= @op mines/mines-op)
+  (if (= @op logic/mines-op)
     [:table {:style {:margin-left "13%"}}
      [:th
-      [:td.ms {:on-click #(do (reset! op mines/mines-op) (restart))}
+      [:td.ms {:on-click #(do (reset! op logic/mines-op) (restart))}
         [:image {:src "img/mine.png"
                  :style {:width "70px" :height "70px"}}]]
-      [:td.mn {:on-click #(do (reset! op mines/knights-op) (restart))}
+      [:td.mn {:on-click #(do (reset! op logic/knights-op) (restart))}
         [:image {:src "img/knight.png"
                  :style {:width "70px" :height "70px"}}]]]]
 
     [:table {:style {:margin-left "13%"}}
      [:th
-      [:td.mn {:on-click #(do (reset! op mines/mines-op) (restart))}
+      [:td.mn {:on-click #(do (reset! op logic/mines-op) (restart))}
         [:image {:src "img/mine.png"
                  :style {:width "70px" :height "70px"}}]]
-      [:td.ms {:on-click #(do (reset! op mines/knights-op) (restart))}
+      [:td.ms {:on-click #(do (reset! op logic/knights-op) (restart))}
         [:image {:src "img/knight.png"
                  :style {:width "70px" :height "70px"}}]]]]))
 
@@ -133,7 +129,6 @@
         (if (second @end-a)
           [:div [:h2 "You win"] [:h1 "↺" [:p (seconds->minutes @seconds)]]]
           [:div [:h2 "You Lose"] [:h1 "↺"]])]])])
-
 
 
 

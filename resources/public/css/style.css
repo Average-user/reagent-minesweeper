@@ -35,6 +35,10 @@ body {
     text-align: center;
 }
 
+.cellM {
+    backgorund-repeat: no-repeat;
+}
+
 .overlay {
     position: absolute;
     top: 0;
